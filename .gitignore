@@ -1,2 +1,4 @@
 /.env/
 /client/node_modules/
+/server/api/__pycache__/
+/server/PasswordGen/__pycache__/
