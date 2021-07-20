@@ -3,8 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import sys
 
+GEN_MODULE_PATH = r"" # add ur path to ur gen module
 
-sys.path.insert(1, "E:\Varsh_Code\Python\PasswordGenerator\server")
+sys.path.insert(1, GEN_MODULE_PATH )
 
 from PasswordGen import PasswordGen
 
